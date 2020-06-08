@@ -2,6 +2,8 @@
 A memory hooker written in python. Able to read process's memory, usually to use as inputs to some sort of AI.
 You can either supply a direct address to read/write from, or use a cheat engine style pointer.
 
+NOTE: writing is currently not supported yet :/
+
 example code:
 ```
 GD = MemoryHooker("GeometryDash.exe")
